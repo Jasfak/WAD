@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple jQuery Mobile App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+  <div data-role="page" id="home">
+    <div data-role="header">
+      <h1>Welcome to My App</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <p>This is a simple jQuery Mobile app.</p>
+      <a href="#about" data-role="button" data-transition="slide">Go to About Page</a>
+    </div>
+
+    <div data-role="footer">
+      <h4>Footer Text</h4>
+    </div>
+  </div>
+
+  <div data-role="page" id="about">
+    <div data-role="header">
+      <h1>About Page</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <p>This is the about page of the app.</p>
+      <a href="#home" data-role="button" data-transition="slide">Go to Home Page</a>
+    </div>
+
+    <div data-role="footer">
+      <h4>Footer Text</h4>
+    </div>
+  </div>
+
+</body>
+</html>
